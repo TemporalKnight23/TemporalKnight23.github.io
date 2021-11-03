@@ -1,0 +1,26 @@
+.raptor {
+  height: 300px;
+}
+body {
+  background-color: rgb(47, 48, 51);
+  color: aqua;
+  background-image: url("Images/rocks.jpg");
+  background-size: contain;
+  background-repeat: repeat;
+  }
+#wrapper {
+  width:60%;
+  margin: auto;
+  margin-top: 30px;
+}
+ul {
+  list-style-image: url("Images/bone.png");
+  background: black;
+}
+.border {
+  border-image-slice:33% 33% 33% 33%;
+  border-image-width:1.5em 1.5em 1.5em 1.5em;
+  border-image-outset:5px 25px 5px 25px;
+  border-image-repeat:round round;
+  border-image-source:url("https://mdn.github.io/css-examples/tools/border-image-generator/border-image-2.png");border-style:solid;
+}
