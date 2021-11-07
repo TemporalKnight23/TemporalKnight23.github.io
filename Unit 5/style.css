@@ -57,3 +57,8 @@ ul {
   display: block;
   color: #000;
 }
+.nav li:hover {
+  background-color: white;
+  padding: 15px;
+  border-radius:15px;
+}
