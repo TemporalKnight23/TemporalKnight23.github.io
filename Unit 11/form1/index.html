@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Unit 11 Form 1</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <form action="https://webdevbasics.net/scripts/demo.php" method="post">
+    <label for="name"><b>User:</b></label><br>
+    <input type="text" id="name" name="name" maxlength="30">
+    <br><br>
+      <p><b>Favorite Month of the Year</b></p>
+        <input type="radio" id="jan" name="fav_language" value= "jan">
+        <label for="jan">January</label><br>
+        <input type="radio" id="feb" name="fav_language" value= "feb">
+        <label for="feb">February</label><br>
+        <input type="radio" id="mar" name="fav_language" value= "mar">
+        <label for="mar">March</label><br>
+        <input type="radio" id="apr" name="fav_language" value= "apr">
+        <label for="apr">April</label><br>
+        <input type="radio" id="may" name="fav_language" value= "may">
+        <label for="may">May</label><br>
+        <input type="radio" id="jun" name="fav_language" value= "Jun">
+        <label for="Jun">June</label><br>
+        <input type="radio" id="Jul" name="fav_language" value= "Jul">
+        <label for="Jul">July</label><br>
+        <input type="radio" id="aug" name="fav_language" value= "aug">
+        <label for="aug">August</label><br>
+        <input type="radio" id="sep" name="fav_language" value= "sep">
+        <label for="sep">September</label><br>
+        <input type="radio" id="oct" name="fav_language" value= "oct">
+        <label for="oct">October</label><br>
+        <input type="radio" id="nov" name="fav_language" value= "nov">
+        <label for="nov">November</label><br>
+        <input type="radio" id="dec" name="fav_language" value= "dec">
+        <label for="dec">December</label>
+    <br>
+    <p><b>Favorite Social Networking Site</b></p>
+      <select name="social" id="social">
+        <option value="Facebook">Facebook</option>
+        <option value="Instagram">Instagram</option>
+        <option value="Twitter">Twitter</option>
+        <option value="Tiktok">Tiktok</option>
+      </select>
+    <br><br>
+    <fieldset>
+      <legend><b>Shipping Address</b></legend>
+      <label for="addy">Address 1:</label><br>
+      <input type="text" id="addy" name="addy"><br>
+      <label for="addy2">Address 2:</label><br>
+      <input type="text" id="addy2" name="addy2"><br>
+      <label for="city">City:</label><br>
+      <input type="text" id="city" name="city"><br>
+      <label for="st">State:</label><br>
+      <input type="text" id="st" name="st"><br>
+      <label for="zip">Zipcode:</label><br>
+      <input type="text" id="zip" name="zip"><br>
+      <br>
+      <p><b>ImageButton</b></p>
+      <input type="image"  img src="https://dabuttonfactory.com/button.png?t=Button&f=Droid+Serif-Bold&ts=30&tc=fff&hp=45&vp=20&w=200&h=50&c=round&bgt=unicolored&bgc=0a0a8d&be=1&bs=4&bc=569">
+      <br>
+      <input type="hidden" id="username" name="userid"><br>
+      <br>
+      <label for="pwd">Password:</label><br>
+        <input type="password" id="pwd" name="pword"><br><br>
+        <input type="submit" value="Submit">
+      </fieldset>
+    </form>
+    <a href="../index.html">Home</a>
+  </body>
+</html>
